@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "298251602310",
+    "firebase_url": "https://harmonychat-736c5.firebaseio.com",
+    "project_id": "harmonychat-736c5",
+    "storage_bucket": "harmonychat-736c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298251602310:android:d4b474f6b0ccdf24",
+        "android_client_info": {
+          "package_name": "com.example.kaans.harmony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298251602310-bfje2gp595ofe8gt24cd8rqtrkqg0soc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaans.harmony",
+            "certificate_hash": "72a1a256fd223d8c80d1025d49220a781af610b1"
+          }
+        },
+        {
+          "client_id": "298251602310-o32g8i601lb4l5bhpfnaq0cddo5idlq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuk_IlK0h1LgRZjzG9Frv_2m-y1vqiqyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298251602310-o32g8i601lb4l5bhpfnaq0cddo5idlq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

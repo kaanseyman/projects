@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Survey">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#E3DBD8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <LinearLayout
+                    android:id="@+id/Q1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You are almost never late for your appointments"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r1y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#539537"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:textColor="#8F8484"
+                             />
+
+                        <RadioButton
+                            android:id="@+id/r1u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r1n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You enjoy having a wide circle of acquaintances"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:addStatesFromChildren="false"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r2y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r2u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r2n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You feel that the world is founded on compassion"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r3y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#539537"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:textColor="#8F8484"
+                            android:textColorLink="#539537" />
+
+                        <RadioButton
+                            android:id="@+id/r3u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r3n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="It is difficult to get you excited"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r4y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r4u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:textColor="#8F8484"
+                            android:buttonTint="#D5AF45"/>
+
+                        <RadioButton
+                            android:id="@+id/r4n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="When making a decision, you rely more on your feelings than on analysis of the situation"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r5y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#539537"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r5u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r5n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You believe the best decision is one which can be easily changed"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r6y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#539537"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r6u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r6n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You trust reason rather than feelings"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r7y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#539537"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r7u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r7n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You usually plan your actions in advance"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r8y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r8u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r8n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You are a person somewhat reserved and distant in communication"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r9y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r9u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#D5AF45"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r9n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You know how to put every minute of your time to good purpose"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r10y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r10u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r10n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You often contemplate the complexity of life"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r11y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r11u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r11n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="After prolonged socializing you feel you need to get away and be alone"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r12y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r12u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r12n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You easily see the general principle behind specific occurrences"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r13y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r13u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r13n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You get bored if you have to read theoretical books"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r14y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r14u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r14n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You tend to sympathize with other people"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r15y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r15u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r15n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#A11A1A"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You value justice higher than mercy"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r16y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r16u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r16n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="The more people you speak to, the better you feel"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r17y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r17u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r17n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You are strongly touched by the stories about people's troubles"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r18y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r18u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r18n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="YFor you, no surprises is better than surprises - bad or good ones"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r19y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r19u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r19n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You take pleasure in putting things in order"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r20y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r20u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r20n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You feel at ease in a crowd"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r21y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r21u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r21n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You have good control over your desires and temptations"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r22y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r22u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r22n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="Your decisions are based more on the feeling of a moment than on the thorough planning"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r23y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r23u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r23n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You are easily affected by strong emotions"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r24y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r24u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r24n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You are always looking for opportunities"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r25y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r25u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r25n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="It is easy for you to communicate in social situations"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r26y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r26u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r26n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e4e4e4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="You easily perceive various ways in which events could develop"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r27y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:buttonTint="#539537"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r27u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r27n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Q28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/cagliostro"
+                        android:text="A thirst for adventure is something close to your heart"
+                        android:textColor="#8F8484" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/r28y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:buttonTint="#539537"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Yes"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r28u"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="Uncertain"
+                            android:buttonTint="#D5AF45"
+                            android:textColor="#8F8484" />
+
+                        <RadioButton
+                            android:id="@+id/r28n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/cagliostro"
+                            android:text="No"
+                            android:buttonTint="#A11A1A"
+                            android:textColor="#8F8484" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Buttonsec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/takeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#8F8484"
+                        android:fontFamily="@font/cagliostro"
+                        android:onClick="onSave"
+                        android:text="Save"
+                        android:textAlignment="center"
+                        android:textColor="#e4e4e4"
+                        android:textColorLink="@color/bodyTextColor" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/display1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cagliostro"
+        android:textColor="#8F8484"
+        android:text="Please answer all questions"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E4E4"
+    tools:context=".LogIn"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="#E4E4E4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/LOGO"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/header" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/TEXTLOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#8F8484"
+                    android:ems="10"
+                    android:fontFamily="@font/cagliostro"
+                    android:hint="E-mail"
+                    android:inputType="textPersonName"
+                    android:textColor="#8F8484"
+                    android:textColorHint="#8F8484" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#8F8484"
+                    android:ems="10"
+                    android:fontFamily="@font/cagliostro"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="#8F8484"
+                    android:textColorHint="#8F8484" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8F8484"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:fontFamily="@font/cagliostro"
+                android:onClick="loginButton"
+                android:text="LOGIN"
+                android:textColor="#E4E4E4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="8dp"
+            android:background="#E4E4E4"
+            android:fontFamily="@font/cagliostro"
+            android:gravity="center"
+            android:onClick="goSignup"
+            android:text="Haven't an account yet? Create one"
+            android:textColor="#8F8484"
+            android:textColorHighlight="#E4E4E4"
+            android:textColorLink="#E4E4E4"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/forgetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:background="#E4E4E4"
+            android:fontFamily="@font/cagliostro"
+            android:gravity="center"
+            android:onClick="goReset"
+            android:text="Forgot Password?"
+            android:textColor="#8F8484"
+            android:textColorHighlight="#E4E4E4"
+            android:textColorLink="#E4E4E4"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

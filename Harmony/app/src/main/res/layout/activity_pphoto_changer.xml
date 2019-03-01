@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8f8484"
+    tools:context=".PphotoChanger">
+
+    <ImageView
+        android:id="@+id/choosenImage"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="263dp"
+        android:onClick="chooseImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/profileicon" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="93dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/ic_menu_save"
+        android:onClick="uploadImage"
+        android:textColor="#8f8484"
+        app:layout_constraintEnd_toEndOf="@+id/choosenImage"
+        app:layout_constraintStart_toStartOf="@+id/choosenImage"
+        app:layout_constraintTop_toBottomOf="@+id/choosenImage" />
+</android.support.constraint.ConstraintLayout>
